@@ -1,0 +1,41 @@
+#clock {
+    width: 55vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+    text-align: center;
+   }
+   
+   .main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .buttonround {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25%;
+    position: relative;
+    bottom: 55px;
+   }
+   .background {
+    background-color: black;
+   }
+   
+   @media screen and (max-width: 700px) {
+    .buttonround {
+    width: 35px;
+    height: 35px;
+    bottom: 53px !important;
+    }
+    .fa-2x {
+    font-size: 1.5rem !important;
+    }
+    hashtag#iconimg {
+    margin-left: -1px;
+    margin-top: 2px;
+    }
+   }
